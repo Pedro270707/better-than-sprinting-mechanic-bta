@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "btsm",
+  "version": "1.0.0",
+
+  "name": "Better than Sprinting Mechanic",
+  "description": "This mod adds better sprinting to MineCraft: Order of the Stone. I can guarantee that you will sprint very fast.",
+  "authors": [
+    "Pedro Ricardo"
+  ],
+  "contact": {
+    "homepage": "https://pedroricardo.net",
+    "sources": "https://github.com/Pedro270707/better-than-sprinting-mechanic-bta"
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"net.pedroricardo.btsm.BTSM"
+    ],
+		"beforeGameStart": [
+    	"net.pedroricardo.btsm.BTSM"
+		],
+		"afterGameStart": [
+    	"net.pedroricardo.btsm.BTSM"
+		],
+		"recipesReady": [
+    	"net.pedroricardo.btsm.BTSM"
+		]
+	},
+  "mixins": [
+		"btsm.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "~7.1-beta.2",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}

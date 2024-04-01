@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.pedroricardo.btsm.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CanSprintMixin",
+    "EatingMixin",
+    "LivingEntityMixin",
+    "WorldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
